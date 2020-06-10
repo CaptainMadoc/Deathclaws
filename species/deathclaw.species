@@ -1,0 +1,209 @@
+{
+  "kind" : "deathclaw",
+	"charCreationTooltip" : {
+	"title" : "Deathclaws",
+	"subTitle" : "D",
+	"description" : "You are a descendant of a pack of intelligent Deathclaws hailing from Vault 13. Inspired by tales of a human that saved your pack from extinction, your pack has made efforts to explore the world and create new homes for your kin."
+  },
+  
+  "humanoidConfig" : "/species/deathclawhumanoid.config",
+  "nameGen" : [ "/species/deathclawmalenamegen.config:names", "/species/deathclawfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/deathclawmalehurt.ogg", "/sfx/humanoid/deathclawfemalehurt.ogg" ],
+  "charGenTextLabels" : [ "Fur colour", "Hair style", "Shirt", "Legwear", "Ears", "Hair colour", "Shirt colour", "Legwear colour", "deathclaw", "Personality" ],
+  "skull" : "/humanoid/deathclaw/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagdeathclaw" },
+	    
+// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "deathclawsword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "deathclawshipdoor" },
+      { "item" : "deathclawshiphatch" },
+// Spinning Wheel
+      { "item" : "deathclawoutfit1chest" },
+      { "item" : "deathclawoutfit1legs" },
+      { "item" : "deathclawoutfit2chest" },
+      { "item" : "deathclawoutfit2legs" },
+      { "item" : "deathclawoutfit3chest" },
+      { "item" : "deathclawoutfit3legs" },
+      { "item" : "deathclawoutfit4chest" },
+      { "item" : "deathclawoutfit4legs" }
+	  ]
+  },
+  
+  "altOptionAsFacialMask" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/deathclawmale.png",
+      "hair" : [ "hair000", "hair001", "hair002", "hair003", "hair004", "hair005", "hair006", "hair007", "hair008", "hair009", "hair010", "hair1002", "hair1003", "hair1004", "hair1005", "hair1006", "hair1007", "hair1008", "hair1009", "hair1011", "hair1013", "hair1014", "hair1015", "hair1016", "hair1017", "hair1018", "hair1019", "hair1020", "hair1021", "hair1022", "hair1023", "hair1024", "hair1025", "hair1026", "hair1027", "hair1028", "hair1030", "hair1031", "hair1032", "hair1033", "hair1034", "hair1035", "hair1036", "hair1037", "hair1038", "hair1039", "hair1040", "hair1041", "hair1042", "hair1043", "hair1044", "hair1045", "hair1047", "hair1048", "hair1050", "hair1051", "hair1052", "hair1053", "hair1058", "hair1059", "hair1060", "hair1061", "hair1062", "hair1063", "hair1064", "hair1065" ],
+      "shirt" : [ "deathclawoutfit1chest", "deathclawoutfit2chest", "deathclawoutfit3chest", "deathclawoutfit4chest" ],
+      "pants" : [ "deathclawoutfit1legs", "deathclawoutfit2legs", "deathclawoutfit3legs", "deathclawoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "ears",
+      "facialMask" : [  "ears001a", "ears001b", "ears001c", "ears001d", "ears001e", 
+						"ears002a", "ears002b", "ears002c", "ears002d", "ears002e", 
+						"ears003a", "ears003b", "ears003c", "ears003d", "ears003e", 
+						"ears004a", "ears004b", "ears004c", "ears004d", "ears004e", 
+						"ears005a", "ears005b", "ears005c", "ears005d", "ears005e", 
+						"ears006a", "ears006b", "ears006c", "ears006d", "ears006e" ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/deathclawfemale.png",
+      "hair" : [ "hair000", "hair001", "hair002", "hair003", "hair004", "hair005", "hair006", "hair007", "hair008", "hair009", "hair010", "hair1002", "hair1003", "hair1004", "hair1005", "hair1006", "hair1007", "hair1008", "hair1009", "hair1011", "hair1013", "hair1014", "hair1015", "hair1016", "hair1017", "hair1018", "hair1019", "hair1020", "hair1021", "hair1022", "hair1023", "hair1024", "hair1025", "hair1026", "hair1027", "hair1028", "hair1030", "hair1031", "hair1032", "hair1033", "hair1034", "hair1035", "hair1036", "hair1037", "hair1038", "hair1039", "hair1040", "hair1041", "hair1042", "hair1043", "hair1044", "hair1045", "hair1047", "hair1048", "hair1050", "hair1051", "hair1052", "hair1053", "hair1058", "hair1059", "hair1060", "hair1061", "hair1062", "hair1063", "hair1064", "hair1065" ],
+      "shirt" : [ "deathclawoutfit1chest", "deathclawoutfit2chest", "deathclawoutfit3chest", "deathclawoutfit4chest" ],
+      "pants" : [ "deathclawoutfit1legs", "deathclawoutfit2legs", "deathclawoutfit3legs", "deathclawoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "ears",
+      "facialMask" : [  "ears001a", "ears001b", "ears001c", "ears001d", "ears001e", 
+						"ears002a", "ears002b", "ears002c", "ears002d", "ears002e", 
+						"ears003a", "ears003b", "ears003c", "ears003d", "ears003e", 
+						"ears004a", "ears004b", "ears004c", "ears004d", "ears004e", 
+						"ears005a", "ears005b", "ears005c", "ears005d", "ears005e", 
+						"ears006a", "ears006b", "ears006c", "ears006d", "ears006e" ]
+    }
+  ],
+  "bodyColor" : [
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "5F3105", "3688A8" : "EAA321", "5CA5E0" : "FFE063", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Yellow eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "003059", "3688A8" : "0080C1", "5CA5E0" : "00C2FD", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Blue eyes
+	{ "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "600A03", "3688A8" : "AC1A09", "5CA5E0" : "FF4436", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Red eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "873408", "3688A8" : "ED6117", "5CA5E0" : "FFA560", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Orange eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "000000", "3688A8" : "303030", "5CA5E0" : "5A5A5A", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Black eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "002F02", "3688A8" : "007D11", "5CA5E0" : "66FA64", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Green eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "310A59", "3688A8" : "8424C0", "5CA5E0" : "C787FC", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Purple eyes
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000", "195F6F" : "303030", "3688A8" : "808080", "5CA5E0" : "C3C3C3", "951500" : "303030", "BE1B00" : "5A5A5A", "DC1F00" : "808080" }, // Coal Grey-Black with Grey eyes
+
+	{ "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "5F3105", "3688A8" : "EAA321", "5CA5E0" : "FFE063", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Yellow eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "003059", "3688A8" : "0080C1", "5CA5E0" : "00C2FD", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Blue eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "600A03", "3688A8" : "AC1A09", "5CA5E0" : "FF4436", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Red eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "873408", "3688A8" : "ED6117", "5CA5E0" : "FFA560", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Orange eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "000000", "3688A8" : "303030", "5CA5E0" : "5A5A5A", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Black eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "002F02", "3688A8" : "007D11", "5CA5E0" : "66FA64", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Green eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "310A59", "3688A8" : "8424C0", "5CA5E0" : "C787FC", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Purple eyes
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301", "195F6F" : "303030", "3688A8" : "808080", "5CA5E0" : "C3C3C3", "951500" : "873408", "BE1B00" : "CD5F14", "DC1F00" : "EC831C" }, // Brunette with Grey eyes
+
+	{ "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "5F3105", "3688A8" : "EAA321", "5CA5E0" : "FFE063", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Yellow eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "003059", "3688A8" : "0080C1", "5CA5E0" : "00C2FD", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Blue eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "600A03", "3688A8" : "AC1A09", "5CA5E0" : "FF4436", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Red eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "873408", "3688A8" : "ED6117", "5CA5E0" : "FFA560", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Orange eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "000000", "3688A8" : "303030", "5CA5E0" : "5A5A5A", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Black eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "002F02", "3688A8" : "007D11", "5CA5E0" : "66FA64", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Green eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "310A59", "3688A8" : "8424C0", "5CA5E0" : "C787FC", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Purple eyes
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306", "195F6F" : "303030", "3688A8" : "808080", "5CA5E0" : "C3C3C3", "951500" : "CE3B10", "BE1B00" : "FF6437", "DC1F00" : "FFA583" }, // Redhead with Grey eyes
+
+	{ "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "5F3105", "3688A8" : "EAA321", "5CA5E0" : "FFE063", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Yellow eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "003059", "3688A8" : "0080C1", "5CA5E0" : "00C2FD", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Blue eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "600A03", "3688A8" : "AC1A09", "5CA5E0" : "FF4436", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Red eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "873408", "3688A8" : "ED6117", "5CA5E0" : "FFA560", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Orange eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "000000", "3688A8" : "303030", "5CA5E0" : "5A5A5A", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Black eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "002F02", "3688A8" : "007D11", "5CA5E0" : "66FA64", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Green eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "310A59", "3688A8" : "8424C0", "5CA5E0" : "C787FC", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Purple eyes
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408", "195F6F" : "303030", "3688A8" : "808080", "5CA5E0" : "C3C3C3", "951500" : "EC831C", "BE1B00" : "FFC33F", "DC1F00" : "FFE185" }, // Blond with Grey eyes
+	
+	{ "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "5F3105", "3688A8" : "EAA321", "5CA5E0" : "FFE063", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Yellow eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "003059", "3688A8" : "0080C1", "5CA5E0" : "00C2FD", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Blue eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "600A03", "3688A8" : "AC1A09", "5CA5E0" : "FF4436", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Red eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "873408", "3688A8" : "ED6117", "5CA5E0" : "FFA560", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Orange eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "000000", "3688A8" : "303030", "5CA5E0" : "5A5A5A", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Black eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "002F02", "3688A8" : "007D11", "5CA5E0" : "66FA64", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Green eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "310A59", "3688A8" : "8424C0", "5CA5E0" : "C787FC", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }, // Silver with Purple eyes
+    { "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2", "195F6F" : "303030", "3688A8" : "808080", "5CA5E0" : "C3C3C3", "951500" : "A2A2A2", "BE1B00" : "E1E1E1", "DC1F00" : "FFFFFF" }  // Silver with Grey eyes
+	
+  ],
+  "undyColor" : [
+    { "f32200" : "FFDCC4", "dc1f00" : "FFB98F", "be1b00" : "C1695F", "951500" : "7E3F38" },
+    { "f32200" : "FFFFE7", "dc1f00" : "FFE48E", "be1b00" : "C1AA5C", "951500" : "7C7135" },
+    { "f32200" : "F6F0D3", "dc1f00" : "DAD39B", "be1b00" : "A7A270", "951500" : "6B6B47" },
+    { "f32200" : "FFFFE0", "dc1f00" : "E7EFA1", "be1b00" : "ABB573", "951500" : "697447" },
+    { "f32200" : "EEFFDC", "dc1f00" : "B1E994", "be1b00" : "7CAD69", "951500" : "4F7B43" },
+    { "f32200" : "C7DEBC", "dc1f00" : "90BC80", "be1b00" : "648B5A", "951500" : "3A5D35" },
+    { "f32200" : "DAFFE5", "dc1f00" : "97ECB0", "be1b00" : "6BB383", "951500" : "417356" },
+    { "f32200" : "DBFFFE", "dc1f00" : "99EEDB", "be1b00" : "6DB4A9", "951500" : "427470" },
+    { "f32200" : "D4FDFF", "dc1f00" : "85CCF5", "be1b00" : "558DB2", "951500" : "36627C" },
+    { "f32200" : "D0D0FF", "dc1f00" : "9290F8", "be1b00" : "6060A9", "951500" : "43396B" },
+    { "f32200" : "FFD1FF", "dc1f00" : "D191DE", "be1b00" : "95629C", "951500" : "603B61" },
+    { "f32200" : "FFF4FF", "dc1f00" : "FFCDEA", "be1b00" : "E19CC4", "951500" : "B8739B" },
+    { "f32200" : "FFFAF6", "dc1f00" : "FBD5CF", "be1b00" : "D9A49E", "951500" : "B07B74" },
+    { "f32200" : "CECBC2", "dc1f00" : "A89B89", "be1b00" : "74665A", "951500" : "463D34" },
+    { "f32200" : "B4B3AD", "dc1f00" : "8A897A", "be1b00" : "4E4F42", "951500" : "2C2915" },
+    { "f32200" : "FFFFFF", "dc1f00" : "F2EFF3", "be1b00" : "A6A4AE", "951500" : "818181" }
+  ],
+  "hairColor" : [
+    { "e0975c" : "5A5A5A", "a85636" : "303030", "6f2919" : "000000" }, // Coal Grey-Black
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301" }, // Brunette
+    { "e0975c" : "FF6437", "a85636" : "CE3B10", "6f2919" : "881306" }, // Redhead
+    { "e0975c" : "FFC33F", "a85636" : "EC831C", "6f2919" : "873408" }, // Blond
+	{ "e0975c" : "FFFFFF", "a85636" : "E1E1E1", "6f2919" : "A2A2A2" }, /// Silver
+    { "e0975c" : "F6B060", "a85636" : "B37F34", "6f2919" : "6D5013" }, /// Yellow
+    { "e0975c" : "C2DE2A", "a85636" : "A4A11D", "6f2919" : "5B590B" }, ///
+    { "e0975c" : "9BDE29", "a85636" : "4E9F19", "6f2919" : "005808" }, /// Green
+    { "e0975c" : "567E12", "a85636" : "295809", "6f2919" : "002F02" }, /// Dark Green
+    { "e0975c" : "00DC60", "a85636" : "009F5D", "6f2919" : "005831" }, /// Bluish-Green
+    { "e0975c" : "00FBC4", "a85636" : "009F81", "6f2919" : "005831" }, /// Aquamarine
+    { "e0975c" : "95E0FE", "a85636" : "00C1E0", "6f2919" : "005A7F" }, /// Sky Blue
+    { "e0975c" : "75A4FC", "a85636" : "005DC0", "6f2919" : "003059" }, /// Blue
+    { "e0975c" : "CA48FC", "a85636" : "8424C0", "6f2919" : "310A59" }, /// Violet
+    { "e0975c" : "FFA8FD", "a85636" : "FF4AC1", "6f2919" : "AB1D5A" }, /// Cherry-Blossom
+    { "e0975c" : "FFE2E1", "a85636" : "FF87A2", "6f2919" : "CE245A" }, /// Pink
+    { "e0975c" : "CD5F14", "a85636" : "873408", "6f2919" : "330301" }, /// Coffee
+    { "e0975c" : "808080", "a85636" : "5A5A5A", "6f2919" : "303030" }  /// Khaki
+    
+  ]
+}
